@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+    width: 50%;
+    padding: 10px;
+}
+
+.subnav {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    /* border: 1px black solid; */
+}
+
+/* end of navbar classes */
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    margin: 0 auto; 
+    gap: 20px;
+    width: 50%;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.box-1 {
+    padding: 20px;
+    border: 3px solid black;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.profpic {
+    width: 60px;
+    margin-bottom: 30px;
+}
+.addav {
+    text-decoration: underline; 
+    color: blue; 
+}
+
+.jamesdoe {
+    margin-top: 30px;
+}
+
+/* end of col-1 classes */
+
+.col-2 {
+    flex: 3;
+}
+
+.box-2 {
+    padding: 20px; 
+    border: 3px solid black;
+    margin-bottom: 20px;
+    /* display: flex; */
+    align-items: center;
+}
+
+.d1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.likes {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+
+button {
+    background-color: gold;
+    padding: 5px;
+    box-shadow: 2px 2px 1px black;
+    border: black solid 2px;
+}
+
+.pclass {
+    align-items: center;
+    text-align: start;
+}
+
