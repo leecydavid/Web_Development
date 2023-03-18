@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <h1>Registration Form</h1>
+</head>
+
+<body>
+    <div>
+        <label>First Name: * </label>
+        <input type="text" name="name" >
+    <div>
+        <label>Last Name: * </label>
+        <input type="text" name="name"
+        placeholder="" >
+    </div>
+    <div>
+        <label>Email Address: *</label>
+        <input type="text" name="email address"
+        placeholder="" >
+    </div>
+    <div>
+        <label>Password: * </label>
+        <input type="text" name="password"
+        placeholder="" > 
+    </div>
+    <div>
+        <label>Confirm Password: *</label>
+        <input type="text" name="confirm password"
+        placeholder="" >
+    </div>
+    <div>
+        <label>Birthday: </label>
+        <input type="date" name="date"
+        placeholder="mm/dd/yyyy">
+    </div>
+    <div>
+        <label>Gender Identity: </label>
+        <!-- question: is there another way? -->
+            <form action="/action_page.php">
+                <input type="checkbox" id="male" name="male" value="option1">
+                <label for="male"> Male </label><br>
+                <input type="checkbox" id="female" name="female" value="option2">
+                <label for="female"> Female </label><br>
+                <input type="checkbox" id="non-binary" name="non-binary" value="option3">
+                <label for="non-binary"> Non-binary </label><br><br>
+                <input type="checkbox" id="I prefer not to answer" name="I prefer not to answer" value="option4">
+                <label for="I prefer not to answer"> I prefer not to answer</label>
+            </form>
+    </div>
+    <div>
+        <label>A short description about myself: </label>
+        <input type="text" name="description"
+        placeholder="">
+        <!-- question about how to insert text area box/description box -->
+    </div>
+    <div>
+        <label>Favorite Language: </label>
+        <input type="text" name="favorite language"
+        placeholder="Java Script">
+        <select></select> 
+    </div>
+    <div>
+        <input type="checkbox" name="offers" id="offers" checked>
+        <label for="offers">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <div>
+        <input type="submit" name="create Account" id="create Account">
+        <label for="create account">Create Account</label>
+        <!-- how do i place "create account" inside the submit box? -->
+    </div>
+    
+    <p>* Indicates a required field</p>
+    <!-- can I just add text for this or is there a specific format? -->
+
+</body>
+
+</html>
